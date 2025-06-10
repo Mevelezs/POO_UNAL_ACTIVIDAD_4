@@ -18,6 +18,6 @@ public class Cilindro extends  FiguraGeométrica {
     public double calcularSuperficie() {
         double áreaLadoA = 2.0 * Math.PI * radio * altura;
         double áreaLadoB = 2.0 * Math.PI * Math.pow(radio, 2.0);
-        return áreaLadoA + áreaLadoB;
+        return áreaLadoA
     }
 }
